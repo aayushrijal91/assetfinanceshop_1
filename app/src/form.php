@@ -18,6 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['token'])) {
 
         $subject = "Message from " . $site;
 
+        $financeType = $_POST['financeType'];
         $name = $_POST['fname'];
         $abn = $_POST['abn'];
         $phone = $_POST['phoneNumber'];
@@ -60,6 +61,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['token'])) {
             '<td><b>' . strip_tags($abn) . '</b></td>' .
             '</tr>' .
             '<tr>' .
+            '<td>Type of Finance</td>' .
+            '<td><b>' . strip_tags($financeType) . '</b></td>' .
+            '</tr>' .
+            '<tr>' .
             '<td>Phone</td>' .
             '<td><b>' . strip_tags($phone) . '</b></td>' .
             '</tr>' .
@@ -77,12 +82,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['token'])) {
             '</tr>' .
             '</tbody></table></body></html>';
 
-        // $webhook_url = 'https://hooks.zapier.com/hooks/catch/4537599/32ezrf1/';
+        // $webhook_url = 'https://hooks.zapier.com/hooks/catch/4537599/32ezu1y/';
 
         $webhook_url = 'https://hooks.zapier.com/hooks/catch/14919517/32exebk/';
 
         $form_data = array(
             'abn' => strip_tags($abn),
+            'financeType' => strip_tags($financeType),
             'fullName' => strip_tags($name),
             'phoneNumber' => strip_tags($phone),
             'email' => strip_tags($email),
