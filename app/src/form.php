@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['token'])) {
 
         $subject = "Message from " . $site;
 
-        $financeType = $_POST['financeType'];
+        $financeType = implode(', ', $_POST['financeType']);
         $name = $_POST['fname'];
         $abn = $_POST['abn'];
         $phone = $_POST['phoneNumber'];
@@ -82,9 +82,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['token'])) {
             '</tr>' .
             '</tbody></table></body></html>';
 
-        // $webhook_url = 'https://hooks.zapier.com/hooks/catch/4537599/32ezu1y/';
-
-        $webhook_url = 'https://hooks.zapier.com/hooks/catch/14919517/32exebk/';
+        $webhook_url = 'https://hooks.zapier.com/hooks/catch/4537599/32ezu1y/';
 
         $form_data = array(
             'abn' => strip_tags($abn),

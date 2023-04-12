@@ -40,7 +40,7 @@
                                 <div class="row gy-1">
                                     <div class="col-md-6">
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" name="financeType" value="Truck Fianance" id="truckFiananceCheckbox">
+                                            <input class="form-check-input" type="checkbox" name="financeType[]" value="Truck Fianance" id="truckFiananceCheckbox">
                                             <label class="form-check-label" for="truckFiananceCheckbox">
                                                 Truck Fianance
                                             </label>
@@ -48,7 +48,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" name="financeType" value="Trailer Fianance" id="truckFiananceCheckbox">
+                                            <input class="form-check-input" type="checkbox" name="financeType[]" value="Trailer Fianance" id="truckFiananceCheckbox">
                                             <label class="form-check-label" for="truckFiananceCheckbox">
                                                 Trailer Fianance
                                             </label>
@@ -56,7 +56,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" name="financeType" value="Heavy Machinery Fianace" id="heavyMachineryFianaceCheckbox" checked>
+                                            <input class="form-check-input" type="checkbox" name="financeType[]" value="Heavy Machinery Fianace" id="heavyMachineryFianaceCheckbox" checked>
                                             <label class="form-check-label" for="heavyMachineryFianaceCheckbox">
                                                 Heavy Machinery Fianace
                                             </label>
@@ -64,7 +64,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" name="financeType" value="Construction Equipment Finance" id="truckFiananceCheckbox">
+                                            <input class="form-check-input" type="checkbox" name="financeType[]" value="Construction Equipment Finance" id="truckFiananceCheckbox">
                                             <label class="form-check-label" for="truckFiananceCheckbox">
                                                 Construction Equipment Finance
                                             </label>
@@ -72,7 +72,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" name="financeType" value="Earthmoving Equipment Finance" id="truckFiananceCheckbox">
+                                            <input class="form-check-input" type="checkbox" name="financeType[]" value="Earthmoving Equipment Finance" id="truckFiananceCheckbox">
                                             <label class="form-check-label" for="truckFiananceCheckbox">
                                                 Earthmoving Equipment Finance
                                             </label>
@@ -80,7 +80,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" name="financeType" value="Farm Equipment Finance" id="truckFiananceCheckbox">
+                                            <input class="form-check-input" type="checkbox" name="financeType[]" value="Farm Equipment Finance" id="truckFiananceCheckbox">
                                             <label class="form-check-label" for="truckFiananceCheckbox">
                                                 Farm Equipment Finance
                                             </label>
@@ -88,7 +88,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" name="financeType" value="Business Vehicle Finance" id="truckFiananceCheckbox">
+                                            <input class="form-check-input" type="checkbox" name="financeType[]" value="Business Vehicle Finance" id="truckFiananceCheckbox">
                                             <label class="form-check-label" for="truckFiananceCheckbox">
                                                 Business Vehicle Finance
                                             </label>
@@ -96,7 +96,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" name="financeType" value="Business Ute Finance" id="truckFiananceCheckbox">
+                                            <input class="form-check-input" type="checkbox" name="financeType[]" value="Business Ute Finance" id="truckFiananceCheckbox">
                                             <label class="form-check-label" for="truckFiananceCheckbox">
                                                 Business Ute Finance
                                             </label>
@@ -104,7 +104,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" name="financeType" value="Business Van Finance" id="truckFiananceCheckbox">
+                                            <input class="form-check-input" type="checkbox" name="financeType[]" value="Business Van Finance" id="truckFiananceCheckbox">
                                             <label class="form-check-label" for="truckFiananceCheckbox">
                                                 Business Van Finance
                                             </label>
@@ -112,7 +112,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" name="financeType" value="Business Car Finance" id="truckFiananceCheckbox">
+                                            <input class="form-check-input" type="checkbox" name="financeType[]" value="Business Car Finance" id="truckFiananceCheckbox">
                                             <label class="form-check-label" for="truckFiananceCheckbox">
                                                 Business Car Finance
                                             </label>
@@ -120,7 +120,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" name="financeType" value="Asset Refinancing" id="truckFiananceCheckbox">
+                                            <input class="form-check-input" type="checkbox" name="financeType[]" value="Asset Refinancing" id="truckFiananceCheckbox">
                                             <label class="form-check-label" for="truckFiananceCheckbox">
                                                 Asset Refinancing
                                             </label>
@@ -128,7 +128,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" name="financeType" value="Small Business Loan" id="truckFiananceCheckbox">
+                                            <input class="form-check-input" type="checkbox" name="financeType[]" value="Small Business Loan" id="truckFiananceCheckbox">
                                             <label class="form-check-label" for="truckFiananceCheckbox">
                                                 Small Business Loan
                                             </label>
@@ -136,7 +136,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" name="financeType" value="Other" id="truckFiananceCheckbox">
+                                            <input class="form-check-input" type="checkbox" name="financeType[]" value="Other" id="truckFiananceCheckbox">
                                             <label class="form-check-label" for="truckFiananceCheckbox">
                                                 Other
                                             </label>
@@ -368,10 +368,10 @@
             foreach ($finance_list as $key => $val) : ?>
                 <div class="col-6 col-lg-4 col-xl-3">
                     <div class="finance_card">
-                        <?= renderImg("finance-" . $key + 1 . ".jpg", "lib", "bg-img") ?>
+                        <?= renderImg("finance-" . ($key + 1) . ".jpg", "lib", "bg-img") ?>
                         <div class="inner">
                             <div class="text-center w-100">
-                                <?= renderImg("finance-" . $key + 1 . ".png", "icons") ?>
+                                <?= renderImg("finance-" . ($key + 1) . ".png", "icons") ?>
                                 <div class="title"><?= $val ?></div>
                             </div>
                         </div>
@@ -412,7 +412,7 @@
                 <div class="col-md-4 col-xl-2">
                     <div class="whyus_card">
                         <div class="row justify-content-center align-items-center gy-md-3">
-                            <div class="col-3 col-md-auto"><?= renderImg("whyus-" . $key + 1 . ".png", 'icons') ?></div>
+                            <div class="col-3 col-md-auto"><?= renderImg("whyus-" . ($key + 1) . ".png", 'icons') ?></div>
                             <div class="col col-md-12"><?= $val ?></div>
                         </div>
                     </div>
