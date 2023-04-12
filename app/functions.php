@@ -1,10 +1,10 @@
 <?php
 include __DIR__ . '/env.php';
 
-$site = "Asset Finance Shop | LoanOption form";
+$site = "Asset Finance Shop";
 $phone_number = "1300 023 185";
 $admin_email = 'info@assetfinanceshop.com'; // 'arijal@aiims.com.au';
-$bcc_email = "kalbassit@aiims.com.au";
+// $bcc_email = "kalbassit@aiims.com.au";
 $no_reply_email = 'info@assetfinanceshop.com';
 $recaptcha_client_secret = $client_secret;
 $recaptcha_server_secret = $server_secret;
