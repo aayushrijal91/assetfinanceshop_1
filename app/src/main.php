@@ -152,7 +152,7 @@
                                         <input type="text" class="form-control" name="fname" placeholder="Your Full Name*" required />
                                     </div>
                                     <div class="col-md-6">
-                                        <input type="text" class="form-control" name="abn" placeholder="Business Name or ABN" />
+                                        <input type="text" class="form-control" name="abn" placeholder="Business Name or ABN" required/>
                                     </div>
                                     <div class="col-md-6">
                                         <input type="tel" class="form-control" name="phoneNumber" placeholder="Your Phone Number*" required />
@@ -167,7 +167,7 @@
                                 <div class="text-primary fs-30 fw-700 text-capitalize lh-1 pb-4">Loan Amount &amp; Business Detail</div>
                                 <div class="row gy-3">
                                     <div class="col-12">
-                                        <input type="text" class="form-control" name="loanAmount" placeholder="Estimated Loan Amount" />
+                                        <input type="text" class="form-control" name="loanAmount" placeholder="Estimated Loan Amount" required/>
                                     </div>
                                     <div class="col-12">
                                         <textarea name="comment" rows="4" placeholder="Additional Asset of Business Details (Optional)" class="form-control"></textarea>
