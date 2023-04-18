@@ -223,6 +223,12 @@ header {
                         }
                     }
 
+                    .validationError {
+                        display: none;
+                        color: $danger;
+                        font-weight: 300;
+                    }
+
                     input.form-control {
                         height: 48px;
                     }

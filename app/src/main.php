@@ -33,7 +33,7 @@
                     <div class="form_wrapper" id="form">
                         <h2 class="fs-48 fw-700 text-primary lh-1">Get Pre-Approved for Asset Finance!</h2>
                         <div class="fw-500 fs-20 py-3">Fill in our short form and get a free no-obligation quote that will have zero impact on your credit score*</div>
-                        <form action="./src/form" method="POST">
+                        <form action="./src/form" method="POST" id="heroForm">
                             <input type="hidden" name="token" id="recaptchaResponse" class="recaptchaResponse">
                             <div class="form-group">
                                 <div class="text-primary fs-30 fw-700 text-capitalize lh-1 pb-3">Choose your type of finance</div>
@@ -152,10 +152,11 @@
                                         <input type="text" class="form-control" name="fname" placeholder="Your Full Name*" required />
                                     </div>
                                     <div class="col-md-6">
-                                        <input type="text" class="form-control" name="abn" placeholder="Business Name or ABN" required/>
+                                        <input type="text" class="form-control" name="abn" placeholder="Business Name or ABN*" required />
                                     </div>
                                     <div class="col-md-6">
-                                        <input type="tel" class="form-control" name="phoneNumber" placeholder="Your Phone Number*" required />
+                                        <input type="tel" id="phoneInput" class="form-control" name="phoneNumber" placeholder="Your Phone Number*" required />
+                                        <small id="phoneError" class="validationError">Please enter a valid phone number</small>
                                     </div>
                                     <div class="col-md-6">
                                         <input type="email" class="form-control" name="email" placeholder="Your Email*" required />
@@ -167,10 +168,10 @@
                                 <div class="text-primary fs-30 fw-700 text-capitalize lh-1 pb-4">Loan Amount &amp; Business Detail</div>
                                 <div class="row gy-3">
                                     <div class="col-12">
-                                        <input type="text" class="form-control" name="loanAmount" placeholder="Estimated Loan Amount" required/>
+                                        <input type="text" class="form-control" name="loanAmount" placeholder="Estimated Loan Amount*" required />
                                     </div>
                                     <div class="col-12">
-                                        <textarea name="comment" rows="4" placeholder="Additional Asset of Business Details (Optional)" class="form-control"></textarea>
+                                        <textarea name="comment" rows="4" placeholder="Additional Comments (Optional)" class="form-control"></textarea>
                                     </div>
                                 </div>
                             </div>
